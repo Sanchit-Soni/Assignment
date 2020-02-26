@@ -1,0 +1,221 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Assistant';font-size: 22px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    width: 100%;
+    background:  #000000;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+
+li{
+    float: right;
+}
+
+.a-prop{
+    padding: 20px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+#section1 {
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Gafata';font-size: 22px;
+
+
+background: linear-gradient(135deg,#081f91 0%,#001ca8 14%,#4220ae 51%,#9b26b6 100%);
+}
+
+#section2 {
+    height: 700px;
+    background: white;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Gafata';font-size: 22px;
+}
+
+#section3 {
+    height: 700px;
+    background : white;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Gafata';font-size: 22px;
+}
+
+#section4 {
+    height: 700px;
+    background: #f7f7f7;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Gafata';font-size: 22px;
+    
+    
+    
+        
+}
+
+.about-description{
+    width: 80%;
+    padding: 20px;
+}
+
+#section5 {
+    height: 700px;
+    background: white;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Gafata';font-size: 22px;
+}
+
+h1{
+    margin: 100px;
+    text-align: center;
+    padding: 0;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.a-prop:hover{
+    text-decoration: none;
+    text-transform: full-width;
+    text-shadow: 20px;
+    background:  #cc8800;
+}
+
+#first{
+    
+    margin-right: 50%;
+    color: #f7f7f7;
+    margin-top: 15%;
+    font-family: 'Assistant';font-size: 77px;
+    font-weight: bold;
+}
+
+img{
+   height: 300px;
+    align-content: center
+}
+
+#second{
+    color:black;
+}
+
+.gallary{
+    align-content: center;
+    width: 300px;
+    height: 300px;
+    background-size: 100% 100%;
+    background-image: url(fitbit1.jpg);
+    animation: slider 15s infinite linear;
+}
+@keyframes slider{
+    0%{background-image: url(fitbit6.png);}
+    35%{background-image: url(img.png);}
+    75%{background-image: url(fitbit4.jpg);}
+}
+
+
+    
+
+h1:hover{ text-shadow: 20px;
+    
+}
+    
+#lo{
+    height: 55px;
+    width: 55px;
+    float: left;
+    margin-left: 1%;
+}
+
+#insta{
+    height: 100px;
+    width:100px;
+}
+#face{
+    height: 100px;
+    width:100px;
+}
+
+
+.social-buttons-container{
+    text-align: center;
+}
+
+
+
+
+.card{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+.btn{
+    background: black;
+    margin-left: 15px;
+}
+.card-ok{
+    box-shadow: 20px;
+    border: 20px;
+    border-color: black;
+    
+}
+#newlogo{
+    float: right;
+    margin-bottom: 50%;
+    height: 250px;
+    width: 250px;
+}
+.btn{
+    float: right;
+}
+
+.card { 
+	width: 250px; 
+	height: 250px; 
+	perspective: 1000px; 
+} 
+.card-inner { 
+	position: relative; 
+	text-align: center; 
+	transition: transform 0.6s; 
+	transform-style: preserve-3d; 
+} 
+.card:hover .card-inner { 
+	transform: rotateY(180deg); 
+} 
+.card-front, .card-back { 
+	position: absolute; 
+	backface-visibility: hidden; 
+} 
+.card-back { 
+	transform: rotateY(180deg); 
+} 
